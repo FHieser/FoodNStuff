@@ -1,0 +1,42 @@
+name: Curry-Nudeln mit Linsen und Hirtenkäse
+description: Herzhafte One-Pot-Pasta mit roten Linsen, Paprika und Curry. Hirtenkäse drüber für Würze und Protein.
+ingredients:
+  - name: Teigwaren eifrei (roh)
+    bls_code: E401000
+    amount_g: 80
+  - name: Linsen (roh)
+    bls_code: H725100
+    amount_g: 60
+  - name: Gemüsepaprika rot (roh)
+    bls_code: G543100
+    amount_g: 100
+  - name: Zwiebel
+    bls_code: G480100
+    amount_g: 40
+  - name: Tomate
+    bls_code: G561100
+    amount_g: 100
+  - name: Hirtenkäse (45% Fett i. Tr.)
+    bls_code: M052000
+    amount_g: 40
+  - name: Olivenöl
+    bls_code: Q120000
+    amount_g: 8
+  - name: Currypulver
+    amount_g: 3
+  - name: Salz, Pfeffer
+    amount_g: 2
+steps:
+  - Linsen in einem Sieb abspülen. In Salzwasser ca. 20 Minuten köcheln bis sie weich sind. Abgießen und beiseite stellen.
+  - Pasta nach Packungsanleitung al dente kochen. Abgießen, etwas Kochwasser aufbewahren.
+  - Zwiebel in Würfel, Paprika in Streifen schneiden.
+  - Olivenöl in einer großen Pfanne bei mittlerer Hitze erhitzen. Zwiebel 2–3 Minuten anschwitzen. Paprika zugeben und weitere 3–4 Minuten mitbraten.
+  - Currypulver zugeben und 1 Minute unter Rühren anrösten.
+  - Tomaten in Würfel schneiden und zugeben. 3–4 Minuten mitköcheln lassen bis sie etwas zerfallen.
+  - Hirtenkäse in grobe Stücke brechen und direkt in die Pfanne geben. Kurz unterheben damit er leicht anschmilzt aber noch Stücke behält.
+  - Linsen und Pasta zugeben und alles gut vermischen. Bei Bedarf einen Schuss Kochwasser zugeben damit es nicht zu trocken wird.
+  - Mit Salz und Pfeffer abschmecken.
+notes: |
+  Rote Linsen (H730000) sind eine schnellere Alternative — kochen in 10–12 Minuten ohne vorheriges Einweichen.
+  Hirtenkäse nicht zu lange in der Pfanne lassen — er soll schmelzen aber nicht komplett zerfallen.
+  Ein Spritzer Zitronensaft am Ende hebt die Currynoten gut hervor.

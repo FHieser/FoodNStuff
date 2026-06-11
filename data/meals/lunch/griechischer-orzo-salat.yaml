@@ -1,0 +1,50 @@
+name: Griechischer Orzo-Salat
+description: Erfrischender Nudelsalat mit Orzo, Kirschtomaten, Kichererbsen, Feta und Kalamata-Oliven in einem Rotweinessig-Zitronen-Dressing mit frischen Kräutern.
+ingredients:
+  # ── Dressing ──────────────────────────────
+  - name: Olivenöl (Dressing)
+    bls_code: Q120000
+    amount_g: 15
+  - name: Rotweinessig
+    bls_code: R121000
+    amount_g: 10
+  - name: Zitronensaft
+    bls_code: F601600
+    amount_g: 15
+  - name: Oregano, Salz, Pfeffer (Dressing)
+    amount_g: 3
+  # ── Salat ─────────────────────────────────
+  - name: Teigwaren eifrei (Orzo, roh)
+    bls_code: E401000
+    amount_g: 80
+  - name: Gurke roh
+    bls_code: G520100
+    amount_g: 80
+  - name: Kirschtomaten roh
+    bls_code: G561100
+    amount_g: 100
+  - name: Kichererbsen Konserve, abgetropft
+    bls_code: H720902
+    amount_g: 80
+  - name: Feta (mind. 45 % Fett i. Tr.)
+    bls_code: M012200
+    amount_g: 60
+  - name: Rote Zwiebel roh
+    bls_code: G480100
+    amount_g: 30
+  - name: Oliven geschwärzt (Kalamata), in Salzlake, abgetropft
+    bls_code: H520800
+    amount_g: 40
+  - name: Basilikum und/oder Minze frisch
+    bls_code: G061000
+    amount_g: 8
+steps:
+  - "Orzo nach Packungsanleitung in gesalzenem Wasser knapp über al dente kochen. Abgießen, mit einem Schuss Olivenöl vermengen damit er nicht klebt. Auf einem Blech ausbreiten und abkühlen lassen."
+  - "Dressing anrühren: Olivenöl, Rotweinessig, Zitronensaft, Oregano und Salz in einer kleinen Schüssel gut verrühren."
+  - "Gemüse vorbereiten: Gurke längs halbieren und in ca. 5 mm dicke Scheiben schneiden. Kirschtomaten halbieren. Rote Zwiebel in dünne Halbringe schneiden. Feta in ca. 1 cm große Würfel schneiden."
+  - "Orzo, Gurke, Tomaten, Kichererbsen, Feta, Zwiebel und Oliven in einer großen Schüssel vermengen."
+  - "Dressing darübergießen, die Hälfte der Kräuter zugeben, mit frisch gemahlenem Pfeffer würzen und alles gut vermengen. Mit den restlichen Kräutern garnieren und sofort servieren."
+notes: |
+  Der Salat schmeckt auch am nächsten Tag kalt gut — Kräuter dann erst kurz vor dem Servieren zugeben.
+  Wird als Beilage serviert (z. B. zu Bratwurst), reichen die Mengen für eine großzügige Portion.
+  Feta nicht zu fein würfeln — größere Stücke halten beim Wenden besser ihre Form.

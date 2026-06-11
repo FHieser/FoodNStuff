@@ -1,0 +1,41 @@
+name: Cheeseburger-Pfanne mit Ofenkartoffeln
+description: Rinderhackfleisch mit Chicorée, roter Zwiebel und Cheddar — dazu knusprige Ofenkartoffeln. Klassisches Meal-Prep-Comfort-Food.
+ingredients:
+  # ── Ofenkartoffeln ─────────────────────
+  - name: Kartoffeln (geschält, roh)
+    bls_code: K110100
+    amount_g: 200
+  # ── Cheeseburger-Pfanne ─────────────────
+  - name: Rinderhackfleisch (roh)
+    bls_code: U010100
+    amount_g: 182
+  - name: Chicorée (roh)
+    bls_code: G101100
+    amount_g: 25
+  - name: Rote Zwiebel
+    bls_code: G480100
+    amount_g: 25
+  - name: Gewürzgurken (abgetropft)
+    bls_code: G520802
+    amount_g: 20
+  - name: Cheddar (gerieben)
+    bls_code: M303700
+    amount_g: 15
+  - name: Olivenöl
+    bls_code: Q120000
+    amount_g: 6
+  - name: Knoblauchpulver, Salz, Pfeffer
+    amount_g: 2
+steps:
+  - Ofen auf 220°C Ober-/Unterhitze vorheizen. Backblech mit in den Ofen stellen während er vorheizt.
+  - Kartoffeln in grobe Würfel oder Halbmonde schneiden (ca. 5mm dick). Mit Öl, Salz und Pfeffer vermengen.
+  - Backblech kurz herausnehmen, leicht einölen und Kartoffeln gleichmäßig verteilen. 10–12 Minuten backen, dann wenden und weitere 8–10 Minuten backen bis sie goldbraun sind.
+  - Währenddessen Zwiebel in dünne Streifen schneiden. Chicorée in grobe Streifen schneiden, dabei den bitteren Strunk herausschneiden. Gewürzgurken fein würfeln.
+  - Öl in einer großen Pfanne bei mittlerer bis hoher Hitze erhitzen. Hackfleisch zugeben, flach drücken und anbraten ohne es sofort zu rühren damit es Farbe bekommt.
+  - Wenn das Hack zu ~90% gar ist, an den Rand schieben. Das ausgelassene Fett in die Mitte laufen lassen. Zwiebeln in die Mitte geben, mit etwas Salz bestreuen und 1–2 Minuten anbraten.
+  - Chicorée zugeben und Knoblauchpulver drüberstreuen. Alles zusammen vermischen und 2–3 Minuten mitbraten — die Bitterkeit des Chicorées mildert sich durch die Hitze.
+  - Fertige Kartoffeln in die Pfanne geben und unterheben. Mit Salz und Pfeffer abschmecken.
+  - In Meal-Prep-Boxen aufteilen. Cheddar und Gewürzgurken direkt obendrauf geben.
+notes: |
+  Cheddar schmilzt durch die Resthitze von selbst an — kein Aufwärmen nötig wenn frisch verteilt.
+  Im Kühlschrank hält es sich 5 Tage. Beim Aufwärmen etwas Wasser in die Box geben damit es nicht austrocknet.

@@ -1,0 +1,60 @@
+name: Creamy Beef Pasta
+description: Karamellisiertes Rinderhack in einer cremigen Pfeffer-Parmesan-Sauce mit Pasta und Erbsen. 5 Meal-Prep-Portionen.
+ingredients:
+  # ── Beef ─────────────────────────────────
+  - name: Rind Hackfleisch roh
+    bls_code: U010100
+    amount_g: 600
+  - name: Olivenöl
+    bls_code: Q120000
+    amount_g: 15
+  - name: Salz, schwarzer Pfeffer (Fleisch)
+    amount_g: 6
+  # ── Pasta ─────────────────────────────────
+  - name: Teigwaren eifrei roh (Penne / Spirelli)
+    bls_code: E401000
+    amount_g: 300
+  # ── Sauce ─────────────────────────────────
+  - name: Speisezwiebel roh
+    bls_code: G480100
+    amount_g: 120
+  - name: Knoblauch roh
+    bls_code: G490100
+    amount_g: 9
+  - name: Tomatenmark
+    bls_code: R160000
+    amount_g: 25
+  - name: Fleischbrühe (Rind)
+    bls_code: Y183013
+    amount_g: 300
+  - name: Schlagsahne mind. 30% Fett
+    bls_code: M173800
+    amount_g: 180
+  - name: Parmesan mind. 30% Fett i. Tr.
+    bls_code: M306400
+    amount_g: 40
+  - name: Erbse grün tiefgefroren
+    bls_code: G760200
+    amount_g: 200
+  - name: Cracked Black Pepper, Paprika (Sauce)
+    amount_g: 4
+  # ── To Serve ──────────────────────────────
+  - name: Petersilienblatt roh
+    bls_code: G250100
+    amount_g: 15
+steps:
+  - Einen großen Topf mit gesalzenem Wasser aufkochen. Pasta bis kurz unter al dente kochen, abgießen und beiseite stellen.
+  - Eine große Pfanne bei mittlerer bis hoher Hitze erhitzen. Olivenöl zugeben, dann das Hackfleisch. Mit Salz und schwarzem Pfeffer würzen. 5–6 Minuten braten, dabei aufbrechen bis es braun ist. Weiterbraten bis die Feuchtigkeit verdampft ist und das Hack leicht karamellisiert.
+  - Zwiebel und Knoblauch in die Pfanne geben und 2–3 Minuten anschmoren bis sie weich und aromatisch sind.
+  - Tomatenmark einrühren und 1–2 Minuten mitbraten um den Geschmack zu vertiefen.
+  - Rinderbrühe angießen und 3–4 Minuten köcheln lassen bis sie leicht reduziert ist.
+  - Hitze reduzieren. Sahne, Cracked Black Pepper und Paprika einrühren und 2–3 Minuten köcheln lassen bis die Sauce andickt.
+  - TK-Erbsen direkt in die Sauce geben und 2 Minuten mitköcheln.
+  - Gekochte Pasta in die Pfanne geben und alles vermengen bis die Sauce eindickt und die Pasta gleichmäßig bedeckt.
+  - Vom Herd nehmen und Parmesan einrühren bis er geschmolzen und glänzend ist. Abschmecken.
+  - Gleichmäßig auf 5 Meal-Prep-Boxen aufteilen und mit gehackter Petersilie garnieren.
+notes: |
+  Pasta wirklich nur bis kurz unter al dente kochen — sie gart in der Sauce fertig durch und wird sonst zu weich.
+  Rinderhack gut karamellisieren lassen bevor Zwiebeln kommen — das ist entscheidend für den Geschmack.
+  TK-Erbsen müssen nicht aufgetaut werden, einfach direkt in die heiße Sauce geben.
+  Hält sich im Kühlschrank 5 Tage. Beim Aufwärmen einen Spritzer Wasser zugeben damit die Sauce wieder cremig wird.

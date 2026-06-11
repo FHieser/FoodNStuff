@@ -1,0 +1,48 @@
+name: Schupfnudel-Rinderhack-Pfanne
+description: Koreanisch inspirierte Hackfleischpfanne mit Schupfnudeln und Weißkohl statt Kimchi und Reiskuchen. Scharf, umami, sättigend.
+ingredients:
+  - name: Rinderhackfleisch (roh)
+    bls_code: U010100
+    amount_g: 115
+  - name: Schupfnudeln (Kartoffel, roh)
+    bls_code: E605000
+    amount_g: 115
+  - name: Weißkohl (Kimchi-Ersatz)
+    bls_code: G342100
+    amount_g: 100
+  - name: Karotte
+    bls_code: G620100
+    amount_g: 15
+  - name: Frühlingszwiebeln
+    bls_code: G482100
+    amount_g: 10
+  - name: Knoblauch
+    bls_code: G490100
+    amount_g: 4
+  - name: Sojasauce
+    bls_code: R143000
+    amount_g: 8
+  - name: Zucker
+    bls_code: S111000
+    amount_g: 2
+  - name: Olivenöl
+    bls_code: Q120000
+    amount_g: 4
+  - name: Gochujang
+    amount_g: 4
+  - name: Salz, Pfeffer
+    amount_g: 2
+steps:
+  - Weißkohl in dünne Streifen schneiden. Karotte mit einem Sparschäler in Ribbons hobeln. Frühlingszwiebeln in dünne Ringe schneiden (Weiß und Grün trennen). Knoblauch fein hacken.
+  - Schupfnudeln in einer Pfanne mit etwas Öl bei mittlerer bis hoher Hitze von allen Seiten goldbraun anbraten (ca. 5–6 Min.). Herausnehmen und beiseite stellen.
+  - Restliches Öl in die Pfanne geben, Hackfleisch zugeben und mit Salz und Pfeffer würzen. Bei hoher Hitze anbraten bis es gebräunt ist.
+  - Wenn das Hack zu ~80% gar ist, in der Mitte der Pfanne Platz schaffen. Das ausgelassene Fett in die Mitte laufen lassen. Frühlingszwiebelweiß, Knoblauch und Weißkohl zugeben und 2–3 Minuten anbraten bis der Kohl etwas weich wird.
+  - Karotten-Ribbons unterheben und kurz mitgaren.
+  - Gochujang, Sojasauce, Zucker und einen Schuss Wasser (ca. 2–3 EL) direkt in die Pfanne geben und alles gut vermischen.
+  - Schupfnudeln zurück in die Pfanne geben und alles zusammen 2–3 Minuten unter Rühren erhitzen bis die Sauce leicht eindickt.
+  - Mit Frühlingszwiebelgrün und optional Sesam bestreuen.
+notes: |
+  Gochujang ist in gut sortierten Supermärkten oder Asia-Läden erhältlich — macht den Unterschied. Alternativ: Harissa + Sojasauce als Ersatz.
+  Weißkohl kann durch Spitzkohl ersetzt werden (milder, weicher). Für mehr Kimchi-Geschmack etwas Reisessig über den rohen Kohl geben und 10 Minuten ziehen lassen.
+  Schupfnudeln (z.B. von Henglein/Aldi) müssen nicht vorher gekocht werden — direkt in die Pfanne.
+  Gewichte für Schupfnudeln und Hackfleisch sind roh.

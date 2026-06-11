@@ -1,0 +1,34 @@
+name: Gebratene Karotten mit Hirtenkäse und Kichererbsen
+description: Karotten und Kichererbsen in der Pfanne angebraten mit cremigem Hirtenkäse. Viel Ballaststoffe, gutes Protein.
+ingredients:
+  - name: Karotten
+    bls_code: G620100
+    amount_g: 200
+  - name: Hirtenkäse (45% Fett i. Tr.)
+    bls_code: M052000
+    amount_g: 70
+  - name: Zwiebel
+    bls_code: G480100
+    amount_g: 80
+  - name: Kichererbsen (Konserve, abgetropft)
+    bls_code: H720902
+    amount_g: 100
+  - name: Tomatenmark
+    bls_code: R160000
+    amount_g: 20
+  - name: Olivenöl
+    bls_code: Q120000
+    amount_g: 10
+  - name: Thymian, Salz, Pfeffer
+    amount_g: 2
+steps:
+  - Karotten schälen und in Scheiben oder Stifte schneiden. Zwiebel in halbe Ringe schneiden.
+  - Olivenöl in einer Pfanne bei mittlerer bis hoher Hitze erhitzen.
+  - Zwiebel zuerst zugeben und 2–3 Minuten anschwitzen bis sie glasig werden.
+  - Karotten zugeben, mit Salz, Pfeffer und Thymian würzen und 6–7 Minuten anbraten.
+  - Tomatenmark zugeben und 1–2 Minuten unter Rühren anschwitzen damit es Röstaromen entwickelt.
+  - Kichererbsen (abgetropft und trockengetupft) zugeben und weitere 3–4 Minuten mitbraten bis sie leicht knusprig werden.
+  - Hirtenkäse in grobe Stücke brechen und über alles geben.
+notes: |
+  Ein Schuss Honig am Ende passt sehr gut dazu.
+  Für Meal Prep Karotten und Käse getrennt aufbewahren, erst beim Essen zusammen anrichten (Käse wird sonst weich).

@@ -1,0 +1,58 @@
+name: Hähnchen Curry mit Reis
+description: Mageres Hähnchengehacktes in Currysauce mit Gewürzreis und TK-Gemüse. Klassisches Meal-Prep-Gericht.
+ingredients:
+  # ── Curry ──────────────────────────────
+  - name: Hähnchengehacktes mager (97/3)
+    bls_code: V416100
+    amount_g: 236
+  - name: Zwiebel
+    bls_code: G480100
+    amount_g: 33
+  - name: Butterschmalz (Ghee)
+    bls_code: Q683000
+    amount_g: 12
+  - name: Knoblauch
+    bls_code: G490100
+    amount_g: 8
+  - name: Ingwer
+    bls_code: R211200
+    amount_g: 4
+  - name: Currypulver
+    amount_g: 2
+  - name: Garam Masala
+    amount_g: 1
+  - name: Paprikapulver edelsüß
+    amount_g: 1
+  - name: Cayennepfeffer (optional)
+    amount_g: 0.3
+  - name: Passierte Tomaten
+    bls_code: R161200
+    amount_g: 111
+  # ── Reis ───────────────────────────────
+  - name: Reis poliert (roh)
+    bls_code: C352000
+    amount_g: 70
+  - name: TK Erbsen-Karotten Mischung
+    bls_code: G992200
+    amount_g: 118
+  - name: Kreuzkümmel
+    amount_g: 1
+  # ── Optional ───────────────────────────
+  - name: Koriander gehackt (optional)
+    amount_g: 5
+steps:
+  - "Für den Reis: Butterschmalz in einem großen Topf bei mittlerer Hitze schmelzen. Knoblauch (8 g) und Kreuzkümmel zugeben, kurz anschwitzen."
+  - Reis zugeben und 2–3 Minuten unter Rühren anrösten, bis er leicht goldbraun wird.
+  - Mit Wasser (doppelte Menge Reis, ca. 140 ml pro Portion) aufgießen, aufkochen, Deckel drauf, auf niedrige Hitze reduzieren und 15 Minuten köcheln lassen.
+  - TK Erbsen-Karotten in der Mikrowelle auftauen. Herd ausschalten, Reis 5 Minuten ruhen lassen, dann Gemüse unterheben und mit einer Gabel auflockern.
+  - "Für das Curry: Zwiebel fein würfeln. Butterschmalz in einer großen Pfanne bei mittlerer bis hoher Hitze erhitzen."
+  - Zwiebel, Knoblauch (8 g), Ingwer, Currypulver, Garam Masala, Paprikapulver und Cayennepfeffer zugeben. 2 Minuten unter Rühren anrösten bis die Gewürze duften.
+  - Hähnchengehacktes zugeben, mit Salz und Pfeffer würzen. Fleisch 2–3 Minuten anbraten, dann wenden und zerkleinern.
+  - Wenn das Fleisch zu ~80% gar ist, Passierte Tomaten und etwas Wasser (ca. 47 ml pro Portion) zugeben. Auf mittlere Hitze reduzieren und 8 Minuten einköcheln lassen bis die Sauce dickflüssiger wird.
+  - Mit Salz und Pfeffer abschmecken. Optional mit frischem Koriander bestreuen.
+  - Portionsweise in Meal-Prep-Boxen aufteilen. Im Kühlschrank hält es sich 5 Tage.
+notes: |
+  Gewichte sind roh/unverarbeitet. Hähnchengehacktes (97/3) ist mageres Geflügelhack vom Brustfleisch – im Supermarkt oft als "Hähnchengehacktes" oder "Geflügelhack" erhältlich.
+  Passierte Tomaten (z.B. von Mutti, Aldi oder Rewe) ersetzt die amerikanische Tomatensauce aus der Dose.
+  Butterschmalz (z.B. Meggle oder Puck) ist das deutsche Äquivalent zu Ghee – alternativ Rapsöl oder Sonnenblumenöl verwenden.
+  Wasser wird in der Zubereitung verwendet, hat aber keine Kalorien und ist daher nicht in der Nährwerttabelle aufgeführt.

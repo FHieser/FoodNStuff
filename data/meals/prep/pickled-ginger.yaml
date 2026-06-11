@@ -1,0 +1,28 @@
+name: Eingelegter Ingwer (Gari)
+description: Klassischer Sushi-Ingwer — scharf, süß-sauer, aus frischem Ingwer. Hält sich bis zu 1 Monat im Kühlschrank. Mengen für ein Glas (ca. 1 Batch).
+ingredients:
+  - name: Ingwer frisch (geschält)
+    bls_code: R211200
+    amount_g: 230
+  - name: Zucker
+    bls_code: S111000
+    amount_g: 125
+  - name: Reisessig
+    bls_code: R123100
+    amount_g: 240
+  - name: Salz
+    bls_code: R111000
+    amount_g: 12
+steps:
+  - Ingwer schälen (Rückseite eines Löffels verwenden, geht einfacher als Messer). In hauchdünne Scheiben schneiden — am besten mit Mandoline oder sehr scharfem Messer.
+  - Ingwerscheiben in eine Schüssel geben, 2 TL Salz (ca. 10g) darüber streuen, gut vermengen und 15–20 Minuten ruhen lassen. Das entzieht dem Ingwer Feuchtigkeit.
+  - Wasser in einem Topf aufkochen. Den Ingwer zugeben und 2–3 Minuten blanchieren.
+  - Ingwer abgießen und etwas abkühlen lassen, dann gut ausdrücken um überschüssiges Wasser zu entfernen. In ein sterilisiertes, luftdichtes Glas geben.
+  - Reisessig, Zucker und ½ TL Salz (ca. 2g) in einem kleinen Topf aufkochen. Einige Minuten köcheln bis der Zucker vollständig aufgelöst ist.
+  - Vom Herd nehmen und leicht abkühlen lassen. Die Essig-Mischung über den Ingwer im Glas gießen.
+  - Abkühlen lassen, Deckel schließen und mindestens 1 Tag im Kühlschrank ziehen lassen — besser 2–3 Tage.
+notes: |
+  Hält sich im Kühlschrank bis zu 1 Monat.
+  Junger Ingwer wird nach dem Einlegen leicht rosa — bei älterem Ingwer kann ein kleines Stück Rote Bete zugegeben werden für die Farbe.
+  Passt zu Sushi, Poké Bowls, gegrilltem Fleisch oder als Beilage zu Reisgerichten.
+  Batch-Multiplikator: "Portionen" mit 2 oder 3 multiplizieren für mehrere Gläser.

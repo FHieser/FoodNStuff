@@ -1,0 +1,52 @@
+name: Rostbratwurst mit griechischem Orzo-Salat
+description: Klassische Rostbratwurst aus der Pfanne, dazu griechischer Orzo-Salat mit Feta, Kichererbsen und Kalamata-Oliven.
+ingredients:
+  # ── Bratwurst ─────────────────────────────
+  - name: Rostbratwurst
+    bls_code: W222600
+    amount_g: 200
+  # ── Orzo-Salat ────────────────────────────
+  - name: Olivenöl (Dressing)
+    bls_code: Q120000
+    amount_g: 15
+  - name: Rotweinessig
+    bls_code: R121000
+    amount_g: 10
+  - name: Zitronensaft
+    bls_code: F601600
+    amount_g: 15
+  - name: Oregano, Salz, Pfeffer (Dressing)
+    amount_g: 3
+  - name: Teigwaren eifrei (Orzo, roh)
+    bls_code: E401000
+    amount_g: 80
+  - name: Gurke roh
+    bls_code: G520100
+    amount_g: 80
+  - name: Kirschtomaten roh
+    bls_code: G561100
+    amount_g: 100
+  - name: Kichererbsen Konserve, abgetropft
+    bls_code: H720902
+    amount_g: 80
+  - name: Feta (mind. 45 % Fett i. Tr.)
+    bls_code: M012200
+    amount_g: 60
+  - name: Rote Zwiebel roh
+    bls_code: G480100
+    amount_g: 30
+  - name: Oliven geschwärzt (Kalamata), in Salzlake, abgetropft
+    bls_code: H520800
+    amount_g: 40
+  - name: Basilikum und/oder Minze frisch
+    bls_code: G061000
+    amount_g: 8
+steps:
+  - "Orzo in gesalzenem Wasser knapp über al dente kochen. Abgießen, mit einem Schuss Olivenöl vermengen. Auf einem Blech ausbreiten und abkühlen lassen."
+  - "Dressing anrühren: Olivenöl, Rotweinessig, Zitronensaft, Oregano und Salz verrühren."
+  - "Gemüse vorbereiten: Gurke längs halbieren und in ca. 5 mm dicke Scheiben schneiden. Kirschtomaten halbieren. Rote Zwiebel in dünne Halbringe schneiden. Feta in ca. 1 cm große Würfel schneiden."
+  - "Orzo, Gurke, Tomaten, Kichererbsen, Feta, Zwiebel und Oliven vermengen. Dressing darübergießen, die Hälfte der Kräuter zugeben, pfeffern und gut vermengen. Mit restlichen Kräutern garnieren."
+  - "Bratwurst in einer Pfanne bei mittlerer bis hoher Hitze ohne zusätzliches Fett von allen Seiten 8–10 Minuten goldbraun braten bis sie durchgegart ist."
+notes: |
+  Rostbratwurst-Gewicht bezieht sich auf das Rohgewicht (ca. 2 Würste à 100 g).
+  Den Orzo-Salat am besten 15–20 Minuten vor dem Servieren anrichten, damit er das Dressing aufnehmen kann.

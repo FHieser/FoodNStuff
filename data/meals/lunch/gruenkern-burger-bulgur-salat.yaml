@@ -1,0 +1,65 @@
+name: Grünkern Burger mit Bulgur-Salat und Joghurt-Dip
+description: Herzhafte Grünkern-Patties mit frischem Tabbouleh-Bulgur-Salat und würzigem Joghurt-Dip. Pflanzlich, proteinreich, sättigend.
+ingredients:
+  # ── Bulgur-Salat ───────────────────────────────────────────
+  - name: Bulgur (roh)
+    bls_code: C119100
+    amount_g: 90
+  - name: Tomate
+    bls_code: G561100
+    amount_g: 60
+  - name: Frühlingszwiebeln
+    bls_code: G482100
+    amount_g: 15
+  - name: Petersilie frisch
+    bls_code: G250100
+    amount_g: 20
+  - name: Minze frisch
+    amount_g: 5
+  - name: Limettensaft
+    bls_code: F602600
+    amount_g: 15
+  - name: Olivenöl
+    bls_code: Q120000
+    amount_g: 10
+  # ── Grünkern Burger ────────────────────────────────────────
+  - name: Grünkern ganzes Korn (roh)
+    bls_code: C311000
+    amount_g: 80
+  - name: Zwiebel
+    bls_code: G480100
+    amount_g: 40
+  - name: Hühnerei
+    bls_code: E111100
+    amount_g: 50
+  - name: Paniermehl
+    bls_code: B821000
+    amount_g: 20
+  - name: Olivenöl (zum Braten)
+    bls_code: Q120000
+    amount_g: 8
+  # ── Joghurt-Dip ────────────────────────────────────────────
+  - name: Joghurt (3,5% Fett)
+    bls_code: M141300
+    amount_g: 80
+  - name: Tomatenmark
+    bls_code: R160000
+    amount_g: 15
+  - name: Gochujang
+    amount_g: 5
+  - name: Salz, Pfeffer, Knoblauchpulver
+    amount_g: 2
+steps:
+  - "Grünkern vorbereiten: Grünkern in reichlich Salzwasser ca. 30–40 Minuten köcheln bis er weich aber noch bissfest ist. Abtropfen lassen und vollständig abkühlen."
+  - "Bulgur vorbereiten: Bulgur mit gleichem Volumen kochendem Wasser übergießen, abdecken und 15 Minuten quellen lassen. Mit einer Gabel auflockern und abkühlen lassen."
+  - "Bulgur-Salat: Tomaten in kleine Würfel schneiden. Petersilie und Minze fein hacken. Bulgur mit Tomaten, Kräutern, Limettensaft und Olivenöl vermischen. Mit Salz und Pfeffer abschmecken."
+  - "Grünkern-Patties: Zwiebel fein würfeln. Abgekühlten Grünkern grob mit einer Gabel zerdrücken — er soll eine grobe Textur behalten, nicht zu glatt werden. Mit Zwiebel, Ei, Paniermehl, Salz, Pfeffer und Knoblauchpulver vermengen."
+  - Aus der Masse 2 Patties formen. Olivenöl in einer Pfanne bei mittlerer Hitze erhitzen und die Patties 3–4 Minuten pro Seite braten bis sie goldbraun und knusprig sind.
+  - "Joghurt-Dip: Joghurt mit Tomatenmark und Gochujang verrühren. Mit Salz abschmecken."
+  - Bulgur-Salat, Patties und Dip in der Meal-Prep-Box anrichten — Dip getrennt lagern.
+notes: |
+  Grünkern am Vortag kochen und im Kühlschrank lagern — spart Zeit beim Meal Prep.
+  Die rohen Patties lassen sich auch einfrieren und direkt aus dem Gefrierfach braten.
+  Joghurt-Dip getrennt aufbewahren damit er nicht in den Salat läuft.
+  Minze ist optional aber macht den Bulgur-Salat deutlich frischer.
+  Gochujang im Asia-Laden oder gut sortiertem Supermarkt erhältlich.

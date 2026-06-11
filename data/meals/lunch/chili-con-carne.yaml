@@ -1,0 +1,43 @@
+name: Chili con Carne
+description: Klassisches Chili — Rinderhack, Kidneybohnen, Mais, Tomaten. Einfach, sättigend, perfekt für Meal Prep.
+ingredients:
+  - name: Rinderhackfleisch (roh)
+    bls_code: U010100
+    amount_g: 100
+  - name: Süßkartoffel (roh)
+    bls_code: K420100
+    amount_g: 120
+  - name: Kidneybohnen (Konserve, abgetropft)
+    bls_code: H742902
+    amount_g: 100
+  - name: Zuckermais (Konserve, abgetropft)
+    bls_code: G570902
+    amount_g: 80
+  - name: Tomatenmark
+    bls_code: R160000
+    amount_g: 20
+  - name: Gehackte Tomaten (Konserve)
+    bls_code: G568900
+    amount_g: 150
+  - name: Zwiebel
+    bls_code: G480100
+    amount_g: 60
+  - name: Knoblauch
+    bls_code: G490100
+    amount_g: 5
+  - name: Olivenöl
+    bls_code: Q120000
+    amount_g: 8
+  - name: Kreuzkümmel, Paprikapulver, Chili, Salz, Pfeffer
+    amount_g: 5
+steps:
+  - Zwiebel fein würfeln, Knoblauch hacken. Süßkartoffel schälen und in kleine Würfel (ca. 1cm) schneiden.
+  - Olivenöl in einem großen Topf bei mittlerer bis hoher Hitze erhitzen. Zwiebeln 3–4 Minuten anschwitzen. Knoblauch zugeben und 1 Minute mitbraten.
+  - Tomatenmark zugeben und 2 Minuten anrösten.
+  - Hackfleisch zugeben, aufbrechen und unter Rühren braun anbraten.
+  - Gehackte Tomaten, Kidneybohnen, Mais und Süßkartoffelwürfel zugeben. Mit Kreuzkümmel, Paprikapulver, Chili, Salz und Pfeffer würzen.
+  - Alles gut vermischen, aufkochen und bei niedriger Hitze 20–25 Minuten köcheln lassen bis die Sauce eingedickt ist und die Süßkartoffeln weich sind.
+  - Abschmecken und in Meal-Prep-Boxen aufteilen.
+notes: |
+  Im Kühlschrank hält es sich 5 Tage — schmeckt am nächsten Tag noch besser.
+  Einfrieren ist problemlos möglich (3 Monate).

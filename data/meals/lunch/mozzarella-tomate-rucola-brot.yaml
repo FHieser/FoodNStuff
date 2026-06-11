@@ -1,0 +1,33 @@
+name: Mozzarella-Tomaten-Teller mit Rucola und Brot
+description: Klassischer Caprese-Teller mit frischer Tomate, Mozzarella, Rucola und getrockneten Tomaten. Mit Olivenöl beträufelt und Brot zum Dippen — simpel, mediterran, sättigend.
+ingredients:
+  - name: Mozzarella (mind. 45% Fett i. Tr.)
+    bls_code: M032100
+    amount_g: 125
+  - name: Tomate roh
+    bls_code: G561100
+    amount_g: 200
+  - name: Rucola roh
+    bls_code: G130100
+    amount_g: 50
+  - name: Tomate getrocknet
+    bls_code: G560400
+    amount_g: 30
+  - name: Olivenöl
+    bls_code: Q120000
+    amount_g: 15
+  - name: Weizenbrot/Weißbrot
+    bls_code: B311000
+    amount_g: 100
+  - name: Salz, Pfeffer, optional Oregano
+    amount_g: 2
+steps:
+  - Mozzarella in Scheiben schneiden, Tomaten in Scheiben oder Spalten schneiden.
+  - Mozzarella und Tomatenscheiben abwechselnd auf einem Teller anrichten.
+  - Rucola und getrocknete Tomaten darüber verteilen.
+  - Mit Olivenöl beträufeln, mit Salz und Pfeffer würzen.
+  - Brot dazu servieren.
+notes: |
+  Getrocknete Tomaten in Öl (aus dem Glas) sind aromatischer als trockene — dann entsprechend weniger Olivenöl verwenden.
+  Wer mag: ein Spritzer Zitrone oder ein paar Tropfen Balsamico-Creme runden den Teller ab.
+  Frisches Basilikum passt gut als Ergänzung zum Rucola.

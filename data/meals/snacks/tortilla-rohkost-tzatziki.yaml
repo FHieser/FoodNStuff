@@ -1,0 +1,30 @@
+name: Tortilla mit Rohkost, Tzatziki und Hirtenkäse
+description: Frische Paprika und Gurke zum Dippen in Tzatziki, dazu Hirtenkäse und Tortilla. Kein Kochen, perfekt für Meal Prep.
+ingredients:
+  - name: Weizentortilla (1 Stück)
+    bls_code: B783012
+    amount_g: 50
+  - name: Gemüsepaprika rot (roh)
+    bls_code: G543100
+    amount_g: 100
+  - name: Gemüsepaprika gelb (roh)
+    bls_code: G542100
+    amount_g: 50
+  - name: Gurke (roh)
+    bls_code: G520100
+    amount_g: 80
+  - name: Tzatziki (Fertigprodukt)
+    bls_code: CUSTOM_TZATZIKI
+    amount_g: 80
+  - name: Hirtenkäse (45% Fett i. Tr.)
+    bls_code: M052000
+    amount_g: 50
+steps:
+  - Paprika entkernen und in breite Streifen schneiden. Gurke in Stifte oder Scheiben schneiden.
+  - Hirtenkäse in grobe Würfel oder Scheiben brechen.
+  - Tzatziki in ein kleines Behältnis (Ramekin oder Ecke der Meal-Prep-Box) geben.
+  - Rohkost, Hirtenkäse und Tortilla daneben anrichten.
+notes: |
+  Für Meal Prep Rohkost und Tzatziki getrennt aufbewahren — erst beim Essen zusammenstellen, sonst wird die Tortilla weich.
+  Tzatziki aus dem Supermarkt (z.B. Mevgal, Rewe Bio) funktioniert gut. Selbstgemacht aus Joghurt, Gurke, Knoblauch und Dill ist noch besser.
+  Paprika-Sorten mischen für Farbe und leicht unterschiedliche Süße.

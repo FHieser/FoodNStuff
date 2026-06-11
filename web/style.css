@@ -1,0 +1,332 @@
+/* ── Reset & Base ─────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg:        #111111;
+  --surface:   #1a1a1a;
+  --border:    #2a2a2a;
+  --text:      #e0e0e0;
+  --muted:     #888888;
+  --accent:    #e07b39;
+  --accent-dim:#7a3d18;
+  --danger:    #e05555;
+  --radius:    6px;
+  --font:      'Inter', system-ui, sans-serif;
+}
+
+html { font-size: 16px; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* ── Layout ───────────────────────────────────────────────── */
+header {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  height: 56px;
+}
+
+header h1 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--accent);
+}
+
+header a {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+header a:hover { color: var(--text); text-decoration: none; }
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+/* ── Filter Bar ───────────────────────────────────────────── */
+.filter-bar {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.filter-bar button {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--muted);
+  padding: 0.35rem 1rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.filter-bar button:hover { border-color: var(--accent); color: var(--text); }
+.filter-bar button.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #111;
+  font-weight: 600;
+}
+
+/* ── Meal Grid ────────────────────────────────────────────── */
+#meal-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1rem;
+}
+
+.meal-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.25rem;
+  cursor: pointer;
+  transition: border-color 0.15s, transform 0.1s;
+  text-decoration: none;
+  display: block;
+  color: var(--text);
+}
+.meal-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-1px);
+  text-decoration: none;
+}
+
+.meal-card .category-tag {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  margin-bottom: 0.4rem;
+}
+.meal-card h2 { font-size: 1rem; font-weight: 600; margin-bottom: 0.3rem; }
+.meal-card .description { font-size: 0.82rem; color: var(--muted); margin-bottom: 0.8rem; line-height: 1.4; }
+.meal-card .kcal {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--accent);
+}
+.meal-card .kcal span { font-size: 0.8rem; font-weight: 400; color: var(--muted); }
+
+/* ── Loading / Error ──────────────────────────────────────── */
+.status-msg {
+  color: var(--muted);
+  font-size: 0.9rem;
+  padding: 2rem 0;
+}
+.status-msg.error { color: var(--danger); }
+
+/* ── Meal Detail Page ─────────────────────────────────────── */
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+  margin-bottom: 1.5rem;
+}
+.back-link:hover { color: var(--text); text-decoration: none; }
+
+.meal-header { margin-bottom: 2rem; }
+.meal-header .category-tag {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  margin-bottom: 0.4rem;
+}
+.meal-header h1 { font-size: 1.8rem; font-weight: 700; margin-bottom: 0.5rem; }
+.meal-header .description { color: var(--muted); max-width: 600px; }
+
+/* ── Sections ─────────────────────────────────────────────── */
+.section { margin-bottom: 2.5rem; }
+.section h2 {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border);
+}
+.section-header h2 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.copy-btn {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--muted);
+  padding: 0.25rem 0.75rem;
+  border-radius: var(--radius);
+  font-size: 0.78rem;
+  cursor: pointer;
+  transition: all 0.12s;
+  white-space: nowrap;
+}
+.copy-btn:hover { border-color: var(--accent); color: var(--text); }
+.copy-btn.copied {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+/* ── Ingredient Table ─────────────────────────────────────── */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+th {
+  text-align: left;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  border-bottom: 1px solid var(--border);
+}
+td {
+  padding: 0.6rem 0.75rem;
+  border-bottom: 1px solid var(--border);
+}
+tr:last-child td { border-bottom: none; }
+.td-right { text-align: right; font-variant-numeric: tabular-nums; }
+.td-muted  { color: var(--muted); }
+.td-accent { color: var(--accent); }
+
+tfoot td {
+  font-weight: 700;
+  border-top: 1px solid var(--accent-dim);
+  padding-top: 0.75rem;
+}
+tfoot .kcal-total { color: var(--accent); font-size: 1.1rem; }
+
+.prep-summary {
+  margin-top: 0.6rem;
+  font-size: 0.82rem;
+  color: var(--muted);
+  text-align: right;
+}
+
+/* ── Scaler Block ─────────────────────────────────────────── */
+.scaler-block {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.scaler-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.scaler-label {
+  font-size: 0.82rem;
+  color: var(--muted);
+  min-width: 140px;
+}
+
+.scaler-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+}
+
+.scaler-unit {
+  font-size: 0.82rem;
+  color: var(--muted);
+  margin-left: 0.2rem;
+}
+
+/* ── Preset Buttons ───────────────────────────────────────── */
+.preset-btn {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  color: var(--muted);
+  padding: 0.3rem 0.7rem;
+  border-radius: var(--radius);
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.12s;
+}
+.preset-btn:hover { border-color: var(--accent); color: var(--text); }
+.preset-btn.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #111;
+  font-weight: 600;
+}
+
+.preset-input {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 0.3rem 0.6rem;
+  border-radius: var(--radius);
+  font-size: 0.85rem;
+  width: 72px;
+}
+.preset-input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+/* ── Steps ────────────────────────────────────────────────── */
+ol.steps {
+  padding-left: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+ol.steps li { font-size: 0.9rem; line-height: 1.6; }
+
+/* ── Notes ────────────────────────────────────────────────── */
+.notes-box {
+  background: var(--surface);
+  border-left: 3px solid var(--accent-dim);
+  padding: 0.75rem 1rem;
+  border-radius: 0 var(--radius) var(--radius) 0;
+  font-size: 0.875rem;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+/* ── Responsive ───────────────────────────────────────────── */
+@media (max-width: 600px) {
+  header { padding: 0 1rem; }
+  main { padding: 1.5rem 1rem; }
+  .meal-header h1 { font-size: 1.4rem; }
+}

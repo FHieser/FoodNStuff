@@ -1,0 +1,62 @@
+name: Couscous-Salat mit mariniertem Hähnchen
+description: Würziger Couscous-Salat mit Tomatenmark, Paprika, Gurke und Petersilie — Dressing wird vorbereitet bevor der Couscous dazukommt. Dazu saftiges mariniertes Hähnchenbrustfilet.
+ingredients:
+  # ── Hähnchenmarinierung ───────────────────
+  - name: Hähnchenbrustfilet gebraten
+    bls_code: Y562032
+    amount_g: 150
+  - name: Olivenöl (Marinade)
+    bls_code: Q120000
+    amount_g: 10
+  - name: Knoblauch roh (Marinade)
+    bls_code: G490100
+    amount_g: 5
+  - name: Zitronensaft (Marinade)
+    bls_code: F601600
+    amount_g: 10
+  - name: Paprikapulver, Kreuzkümmel, Salz, Pfeffer (Marinade)
+    amount_g: 3
+  # ── Couscous-Dressing ─────────────────────
+  - name: Tomatenmark
+    bls_code: R160000
+    amount_g: 25
+  - name: Olivenöl (Dressing)
+    bls_code: Q120000
+    amount_g: 10
+  - name: Zitronensaft (Dressing)
+    bls_code: F601600
+    amount_g: 15
+  - name: Knoblauch roh (Dressing)
+    bls_code: G490100
+    amount_g: 3
+  - name: Salz, Pfeffer, Kreuzkümmel, Paprikapulver (Dressing)
+    amount_g: 3
+  # ── Couscous & Gemüse ─────────────────────
+  - name: Couscous (Hartweizen) roh
+    bls_code: C119200
+    amount_g: 80
+  - name: Gemüsepaprika rot roh
+    bls_code: G543100
+    amount_g: 100
+  - name: Gurke roh
+    bls_code: G520100
+    amount_g: 100
+  - name: Speisezwiebel roh
+    bls_code: G480100
+    amount_g: 50
+  - name: Petersilienblatt roh
+    bls_code: G250100
+    amount_g: 15
+steps:
+  - "Hähnchen marinieren (zuerst): Knoblauch pressen. Olivenöl, Zitronensaft, Knoblauch, Paprikapulver, Kreuzkümmel, Salz und Pfeffer vermengen. Hähnchenbrustfilet damit einreiben und mindestens 15 Minuten (besser 30 Min.) ziehen lassen."
+  - "Couscous-Dressing vorbereiten: Tomatenmark, Olivenöl, Zitronensaft, gepressten Knoblauch und Gewürze in einer großen Schüssel gut verrühren. Beiseite stellen."
+  - "Gemüse vorbereiten: Paprika, Gurke und Zwiebel fein würfeln. Petersilie grob hacken. Alles zum Dressing in die Schüssel geben und vermengen."
+  - "Couscous: Wasser (ca. 100 ml) aufkochen, leicht salzen. Couscous in eine separate Schüssel geben, kochendes Wasser angießen bis er knapp bedeckt ist. Sofort abdecken und genau 5 Minuten quellen lassen — nicht länger."
+  - "Couscous sofort nach dem Quellen mit einer Gabel auflockern und zum vorbereiteten Dressing-Gemüse-Mix geben. Gut vermengen, damit der heiße Couscous das Dressing aufnimmt. Abschmecken."
+  - "Hähnchen braten: Eine beschichtete Pfanne bei mittlerer bis hoher Hitze erhitzen. Hähnchenbrustfilet 4–5 Minuten pro Seite braten bis es durchgegart ist. Kurz ruhen lassen, dann in Streifen schneiden."
+  - Couscous-Salat und Hähnchen auf einem Teller anrichten. Sofort servieren oder kalt stellen.
+notes: |
+  Rohgewicht Hähnchen: ca. 150 g entsprechen gebraten ~120 g — BLS-Code bezieht sich auf gebratenes Filet.
+  Der Couscous darf keinesfalls zu lange im heißen Wasser sitzen — nach 5 Minuten sofort auflockern und untermischen, sonst wird er zu weich.
+  Das Dressing kann auch am Vortag vorbereitet werden, Gemüse dann erst kurz vor dem Couscous zugeben.
+  Kalt schmeckt der Salat am nächsten Tag ebenfalls gut — Hähnchen dann separat aufwärmen oder kalt dazu essen.
