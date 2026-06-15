@@ -330,3 +330,192 @@ ol.steps li { font-size: 0.9rem; line-height: 1.6; }
   main { padding: 1.5rem 1rem; }
   .meal-header h1 { font-size: 1.4rem; }
 }
+
+/* ── Fitness Page ─────────────────────────────────────────── */
+.attribution-note {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent-dim);
+  border-radius: var(--radius);
+  padding: 0.6rem 1rem;
+  font-size: 0.82rem;
+  color: var(--muted);
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+/* Week strip */
+.week-strip {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 0.4rem;
+  margin-bottom: 1.5rem;
+}
+
+.ws-day {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.5rem 0.3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  transition: border-color 0.15s;
+}
+
+.ws-day.ws-today { border-color: var(--accent); }
+
+.ws-name {
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  margin-bottom: 0.1rem;
+}
+
+.ws-tag {
+  font-size: 0.62rem;
+  padding: 0.1rem 0.3rem;
+  border-radius: 3px;
+  font-weight: 500;
+  width: 100%;
+  text-align: center;
+}
+
+/* Movement colour variables */
+.tag-push   { --mc: #e07b39; }
+.tag-pull   { --mc: #5b9bd5; }
+.tag-squat  { --mc: #6abf7b; }
+.tag-core   { --mc: #d4b94a; }
+.tag-bridge { --mc: #a06dd4; }
+.tag-twist  { --mc: #4abfbf; }
+.tag-rest   { --mc: #666666; }
+
+.ws-tag.tag-push   { background: rgba(224,123, 57,0.15); color: #e07b39; }
+.ws-tag.tag-pull   { background: rgba( 91,155,213,0.15); color: #5b9bd5; }
+.ws-tag.tag-squat  { background: rgba(106,191,123,0.15); color: #6abf7b; }
+.ws-tag.tag-core   { background: rgba(212,185, 74,0.15); color: #d4b94a; }
+.ws-tag.tag-bridge { background: rgba(160,109,212,0.15); color: #a06dd4; }
+.ws-tag.tag-twist  { background: rgba( 74,191,191,0.15); color: #4abfbf; }
+.ws-tag.tag-rest   { background: rgba(102,102,102,0.15); color: #666; }
+
+/* Schedule grid */
+.schedule-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.day-col {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.day-col-header {
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+  padding: 0.5rem 1rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+}
+
+.ex-block {
+  padding: 0.9rem 1rem;
+  border-left: 3px solid var(--mc, var(--accent));
+}
+
+.ex-block + .ex-block {
+  border-top: 1px solid var(--border);
+}
+
+.ex-block-label {
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: var(--mc, var(--accent));
+  margin-bottom: 0.5rem;
+}
+
+/* Select dropdown */
+.ex-select-wrapper {
+  position: relative;
+  margin-bottom: 0.4rem;
+}
+
+.ex-select-wrapper::after {
+  content: '▾';
+  position: absolute;
+  right: 0.6rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--muted);
+  pointer-events: none;
+  font-size: 0.75rem;
+}
+
+.ex-select {
+  appearance: none;
+  -webkit-appearance: none;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 0.35rem 1.8rem 0.35rem 0.6rem;
+  border-radius: var(--radius);
+  font-size: 0.85rem;
+  font-family: var(--font);
+  width: 100%;
+  cursor: pointer;
+  transition: border-color 0.12s;
+}
+
+.ex-select:hover  { border-color: var(--mc, var(--accent)); }
+.ex-select:focus  { outline: none; border-color: var(--mc, var(--accent)); }
+
+.ex-vol {
+  font-size: 0.82rem;
+  color: var(--accent);
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+
+.ex-desc {
+  font-size: 0.78rem;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+/* Rest column */
+.day-col--rest .day-col-header { border-bottom: none; }
+
+.rest-block {
+  padding: 1rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+  text-align: center;
+}
+
+/* Tempo info */
+.routine-tempo {
+  font-size: 0.78rem;
+  color: var(--muted);
+  text-align: center;
+  border-top: 1px solid var(--border);
+  padding-top: 1rem;
+}
+
+@media (max-width: 800px) {
+  .schedule-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 500px) {
+  .schedule-grid { grid-template-columns: 1fr; }
+  .week-strip { gap: 0.2rem; }
+  .ws-tag  { font-size: 0.55rem; padding: 0.1rem 0.2rem; }
+  .ws-name { font-size: 0.6rem; }
+}
