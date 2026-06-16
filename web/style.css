@@ -511,11 +511,28 @@ ol.steps li { font-size: 0.9rem; line-height: 1.6; }
   color: var(--muted);
   font-weight: 500;
   white-space: nowrap;
+  font-family: var(--font);
+  cursor: pointer;
+  transition: all 0.12s;
 }
 
-.std-badge--goal {
+.std-badge:hover {
+  border-color: var(--text);
+  color: var(--text);
+}
+
+/* L3 — always shows as the advance goal (colored outline) */
+.std-badge--goal:not(.std-badge--current) {
   border-color: var(--mc, var(--accent));
   color: var(--mc, var(--accent));
+}
+
+/* Currently selected level — filled with movement color */
+.std-badge--current {
+  background: var(--mc, var(--accent));
+  border-color: var(--mc, var(--accent));
+  color: #111;
+  font-weight: 700;
 }
 
 .std-note {

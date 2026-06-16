@@ -341,10 +341,24 @@ function saveLevel(id, level) {
   localStorage.setItem('hc_' + id, level);
 }
 
-function stdHtml(prog) {
-  const badges = prog.std.map((s, i) =>
-    `<span class="std-badge${i === 2 ? ' std-badge--goal' : ''}">${['L1', 'L2', 'L3'][i]} ${s}</span>`
-  ).join('');
+function getCurrentStd(id) {
+  const v = parseInt(localStorage.getItem('hc_' + id + '_std'));
+  return isNaN(v) ? 0 : Math.max(0, Math.min(v, 2));
+}
+
+function saveCurrentStd(id, lvl) {
+  localStorage.setItem('hc_' + id + '_std', lvl);
+}
+
+function stdHtml(id, prog) {
+  const current = getCurrentStd(id);
+  const labels = ['L1', 'L2', 'L3'];
+  const badges = prog.std.map((s, i) => {
+    let cls = 'std-badge';
+    if (i === current) cls += ' std-badge--current';
+    if (i === 2)       cls += ' std-badge--goal';
+    return `<button class="${cls}" data-id="${id}" data-lvl="${i}">${labels[i]} ${s}</button>`;
+  }).join('');
   const suffix = prog.note
     ? `<span class="std-note">${prog.note}</span>`
     : '';
@@ -380,7 +394,7 @@ function buildSchedule() {
             ).join('')}
           </select>
         </div>
-        <div class="ex-standards" id="std-${id}">${stdHtml(p)}</div>
+        <div class="ex-standards" id="std-${id}">${stdHtml(id, p)}</div>
         <div class="ex-desc" id="desc-${id}">${p.desc}</div>
       `;
 
@@ -407,8 +421,18 @@ function handleChange(e) {
   const level = parseInt(select.value);
   saveLevel(id, level);
   const p = MOVEMENTS[id].progressions[level];
-  document.getElementById('std-' + id).innerHTML = stdHtml(p);
+  document.getElementById('std-' + id).innerHTML = stdHtml(id, p);
   document.getElementById('desc-' + id).textContent = p.desc;
+}
+
+function handleStdClick(e) {
+  const badge = e.target.closest('.std-badge');
+  if (!badge) return;
+  const id = badge.dataset.id;
+  const lvl = parseInt(badge.dataset.lvl);
+  saveCurrentStd(id, lvl);
+  const p = MOVEMENTS[id].progressions[getLevel(id)];
+  document.getElementById('std-' + id).innerHTML = stdHtml(id, p);
 }
 
 function highlightToday() {
@@ -419,5 +443,6 @@ function highlightToday() {
 }
 
 document.getElementById('schedule').addEventListener('change', handleChange);
+document.getElementById('schedule').addEventListener('click', handleStdClick);
 buildSchedule();
 highlightToday();
